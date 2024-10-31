@@ -1,0 +1,55 @@
+.reset-button{
+    margin: 10px;
+    padding: 20px;
+    display: inline-flex;
+    align-items: flex-end; 
+}
+.container {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .top-layout {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+  }
+  
+  .movement-results,
+  .obstacle-section {
+    flex: 1;
+    max-width: 45%;
+  }
+  
+  .file-upload,
+  .obstacle-input,
+  .reset-button {
+    margin-bottom: 1em;
+  }
+  
+  .content-layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .forklift-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .forklift-table th,
+  .forklift-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .forklift-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .error {
+    color: red;
+  }
+  
