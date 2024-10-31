@@ -23,8 +23,8 @@ export class AppComponent implements AfterContentInit {
   obstacles: any;
   movementResults: string[] = [];
   movementCommands: { [forkliftName: string]: string } = {};
-  daysSinceAccident = Math.floor(Math.random() * (30 - 1) + 1);
-
+  daysSinceAccident = 1;
+  
   constructor(private forkliftService: ForkliftService, private obstacleService: ObstacleService) {}
   
   ngAfterContentInit(): void {
